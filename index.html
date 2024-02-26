@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+  <title>My Awesome Stopwatch</title>
+</head>
+<body>
+
+  <h1 class="page-title">My Awesome Stopwatch</h1>
+
+  <div class="stopwatch">
+    <div class="display" id="display">00:00:00</div>
+    <div class="buttons" id="buttons">
+      <button class="start-btn" onclick="startStopwatch()">Start</button>
+      <button class="lap-btn" onclick="recordLap()">Lap</button>
+      <button class="reset-btn" onclick="resetStopwatch()">Reset</button>
+    </div>
+    <ul class="laps" id="laps"></ul>
+  </div>
+
+</body>
+</html>
